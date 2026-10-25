@@ -1,0 +1,1141 @@
+<!DOCTYPE html><html class="dark" lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Syne:wght@600;700;800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;background-color:#0A0A0C;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-tertiary-fixed": "#022100", "on-tertiary-container": "#117400", "surface-container-highest": "#353437", "error": "#ffb4ab", "secondary-fixed-dim": "#98da27", "surface-elevated": "#121316", "primary-fixed-dim": "#67e100", "secondary-container": "#83c300", "surface-bright": "#39393b", "on-error": "#690005", "surface-void": "#0A0A0C", "primary-fixed": "#80ff2c", "on-tertiary": "#053900", "inverse-on-surface": "#313032", "on-secondary-fixed": "#121f00", "border-glass": "rgba(255, 255, 255, 0.08)", "surface-container-high": "#2a2a2c", "surface": "#131315", "on-surface-variant": "#bdcbae", "background": "#0A0A0C", "on-error-container": "#ffdad6", "primary": "#fdfff4", "secondary": "#A3E635", "on-primary-fixed": "#092100", "outline": "#87957b", "surface-tint": "#76ff03", "on-primary-container": "#092100", "inverse-primary": "#2e6c00", "on-surface": "#e5e1e4", "on-secondary-container": "#304b00", "inverse-surface": "#e5e1e4", "tertiary-container": "#6eff50", "surface-dim": "#131315", "error-container": "#93000a", "surface-variant": "#353437", "on-background": "#e5e1e4", "glow-lime": "rgba(118, 255, 3, 0.15)", "secondary-fixed": "#b2f746", "on-tertiary-fixed-variant": "#095300", "text-muted": "#94A3B8", "tertiary-fixed": "#79ff5b", "surface-glass": "rgba(18, 19, 22, 0.7)", "surface-container-lowest": "#070709", "primary-container": "#76ff03", "on-primary": "#153800", "on-secondary": "#213600", "border-glass-glow": "rgba(118, 255, 3, 0.35)", "tertiary-fixed-dim": "#2ae500", "on-primary-fixed-variant": "#215100", "tertiary": "#fdfff5", "on-secondary-fixed-variant": "#334f00", "text-primary": "#F8FAFC", "surface-container-low": "#16171a", "surface-container": "#1e2024", "outline-variant": "#3e4a34" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "margin-sm": "1.25rem", "margin-lg": "4rem", "space-xs": "0.375rem", "space-md": "1.25rem", "space-xl": "3.5rem", "space-sm": "0.75rem", "space-lg": "2rem", "gutter": "1.5rem", "gutter-sm": "1rem", "margin": "2rem", "gutter-lg": "2.5rem" }, "fontFamily": { "label-lg": [ "Plus Jakarta Sans" ], "headline-md": [ "Syne" ], "display-xl-mobile": [ "Syne" ], "body-sm": [ "Plus Jakarta Sans" ], "body-md": [ "Plus Jakarta Sans" ], "headline-lg": [ "Syne" ], "display-xl": [ "Syne" ], "display-lg": [ "Syne" ], "label-sm": [ "Plus Jakarta Sans" ], "headline-sm": [ "Syne" ], "label-md": [ "Plus Jakarta Sans" ], "headline-lg-mobile": [ "Syne" ], "display-lg-mobile": [ "Syne" ], "body-lg": [ "Plus Jakarta Sans" ] }, "fontSize": { "label-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.04em", "fontWeight": "600" } ], "headline-md": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "display-xl-mobile": [ "38px", { "lineHeight": "46px", "letterSpacing": "-0.03em", "fontWeight": "800" } ], "body-sm": [ "13px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "400" } ], "body-md": [ "15px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400" } ], "headline-lg": [ "40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "display-xl": [ "68px", { "lineHeight": "76px", "letterSpacing": "-0.04em", "fontWeight": "800" } ], "display-lg": [ "52px", { "lineHeight": "60px", "letterSpacing": "-0.03em", "fontWeight": "700" } ], "label-sm": [ "10px", { "lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "700" } ], "headline-sm": [ "20px", { "lineHeight": "28px", "letterSpacing": "0em", "fontWeight": "600" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "600" } ], "headline-lg-mobile": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "display-lg-mobile": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "body-lg": [ "18px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "400" } ] } } } }</script></head><body class="bg-surface-void font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container min-h-screen text-[#E5E1E4]">
+<!-- ==================== HEADER ==================== -->
+<header class="fixed top-0 left-0 right-0 z-50 bg-[#0A0A0C]/80 backdrop-blur-2xl border-b border-white/5 shadow-[0_4px_30px_rgba(0,0,0,0.7)]"><div class="h-20 w-full px-margin lg:px-margin-lg flex items-center justify-between gap-gutter">
+<a class="flex items-center gap-space-sm group" href="#">
+<img alt="Fusion Forma Logo" class="h-9 w-auto object-contain transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBh0eQ1JktMRvRp30p3OTtGniCLH6VVAuUDNH8fYZrR__zLTfxPYiabRVnPobOsKGEQu36Ca5Vji_sYcpZfkQRNtVoFATUyQFs1lV276_qgsrKljjLOlQDlTbPmXI2d-hrhA9PL9NzGAZiWsg4GDmK6biqH_VJeLqMWQ6dCAEzf5Vb5fCf4gp3gvO6FrgyNz6dRJi9MATuR4f6knS9JNJVHQ2EZ0j5WPlK7oy33-acRh-e7kEJp66T56S_oe_A-dBh1_ao">
+<span class="font-headline-sm text-headline-sm uppercase tracking-wider text-text-primary hidden sm:inline">Fusion Forma</span>
+<span class="hidden xl:inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-surface-elevated border border-primary-container/20 shadow-[0_0_12px_rgba(118,255,3,0.15)] ml-1">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container animate-pulse"></span>
+<span class="font-label-sm text-label-sm uppercase text-secondary">Hiring Active</span>
+</span>
+</a>
+<nav class="hidden lg:flex items-center gap-1 p-1.5 rounded-full bg-[#121316]/90 border border-white/10 backdrop-blur-xl shadow-[inset_0_1px_1px_rgba(255,255,255,0.05)]">
+<a class="px-4 py-1.5 rounded-full font-label-md text-label-md text-on-surface-variant hover:text-text-primary hover:bg-surface-container transition-all" href="#services">Services</a>
+<a class="px-4 py-1.5 rounded-full font-label-md text-label-md text-on-surface-variant hover:text-text-primary hover:bg-surface-container transition-all" href="#pricing">Pricing</a>
+<a class="px-4 py-1.5 rounded-full font-label-md text-label-md text-on-surface-variant hover:text-text-primary hover:bg-surface-container transition-all" href="#work">Work</a>
+<a class="px-4 py-1.5 rounded-full font-label-md text-label-md text-primary-container hover:bg-primary-container/10 transition-all font-semibold flex items-center gap-1" href="#jobs"><span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span> Join Our Team (Jobs)</a>
+<a class="px-4 py-1.5 rounded-full font-label-md text-label-md text-on-surface-variant hover:text-text-primary hover:bg-surface-container transition-all" href="#client-inquiry">Contact</a>
+</nav>
+<div class="flex items-center gap-2 sm:gap-3">
+<a class="inline-flex items-center justify-center px-3.5 sm:px-4 py-2 rounded-full bg-white/5 hover:bg-white/10 border border-white/15 text-text-primary font-label-md text-label-md uppercase tracking-wider transition-all duration-300 backdrop-blur-md hover:border-primary-container/40" href="#jobs">Join as Editor</a>
+<a class="inline-flex items-center justify-center px-4 sm:px-5 py-2 rounded-full bg-primary-container text-on-primary-container font-headline-sm text-[12px] sm:text-[13px] tracking-wide uppercase transition-all duration-300 shadow-[0_0_20px_rgba(118,255,3,0.35)] hover:shadow-[0_0_30px_rgba(118,255,3,0.6)] hover:scale-105 active:scale-95 font-bold" href="#client-inquiry">Hire Us</a>
+</div>
+</div></header>
+<main class="w-full pt-20 bg-surface-void"><div class="flex flex-col w-full text-on-surface relative">
+<!-- Ambient Lighting Accents (Oryzo.ai dark glow aesthetic) -->
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[900px] h-[550px] bg-primary-container/15 rounded-full blur-[150px] pointer-events-none -z-10"></div>
+<div class="absolute top-[850px] -left-48 w-[600px] h-[600px] bg-secondary/10 rounded-full blur-[160px] pointer-events-none -z-10"></div>
+<div class="absolute top-[2100px] -right-32 w-[700px] h-[700px] bg-primary-container/10 rounded-full blur-[180px] pointer-events-none -z-10"></div>
+<div class="absolute top-[3400px] left-1/3 w-[600px] h-[600px] bg-secondary/10 rounded-full blur-[170px] pointer-events-none -z-10"></div>
+<!-- ==================== SECTION 1: HERO ==================== -->
+<section class="w-full px-margin lg:px-margin-lg pt-space-lg lg:pt-space-xl pb-space-xl flex flex-col items-center relative">
+<!-- Status Pill -->
+<div class="inline-flex items-center gap-2 px-space-md py-1.5 rounded-full bg-surface-elevated/90 border border-primary-container/30 shadow-[0_0_25px_rgba(118,255,3,0.2)] mb-space-md backdrop-blur-xl">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse shadow-[0_0_8px_#76ff03]"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary-container font-semibold">ON-DEMAND CREATIVE LAB &amp; ELITE EDITOR NETWORK</span>
+<span class="text-text-muted text-label-sm font-label-sm hidden sm:inline">• Hiring 20+ New Editors</span>
+</div>
+<!-- Main Headline -->
+<h1 class="font-display-xl text-display-xl-mobile lg:text-display-xl text-center max-w-5xl tracking-tight text-text-primary uppercase leading-[1.05]">
+  The Creative Engine for
+  <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-container via-secondary to-primary">Hyper-Growth Brands</span>
+  &amp; Editors
+</h1>
+<!-- Subheadline -->
+<p class="font-body-lg text-body-lg text-text-muted text-center max-w-3xl mt-space-md leading-relaxed">
+  On-demand elite video editing, photo retouching, graphic design, and brand design for modern creators &amp; high-output brands — powered by the top 1% global creative talent network.
+</p>
+<!-- Dual CTAs -->
+<div class="flex flex-wrap items-center justify-center gap-space-md mt-space-lg w-full max-w-lg">
+<a class="flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-primary-container text-on-primary-container font-headline-sm text-[13px] sm:text-[14px] uppercase tracking-wider shadow-[0_0_30px_rgba(118,255,3,0.4)] hover:shadow-[0_0_45px_rgba(118,255,3,0.7)] hover:scale-105 active:scale-95 transition-all duration-300 font-bold" href="#client-inquiry">
+<span class="">Book a Project</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-surface-elevated/80 border border-white/15 text-text-primary hover:text-primary-container hover:border-primary-container/40 font-label-lg text-label-lg tracking-wide hover:bg-surface-container transition-all backdrop-blur-xl shadow-lg" href="#jobs">
+<span class="material-symbols-outlined text-primary-container text-[20px]">group_add</span>
+<span class="">Apply to Join as Editor</span>
+</a>
+</div>
+<!-- Stat Metrics Strip -->
+<div class="w-full max-w-5xl grid grid-cols-2 md:grid-cols-4 gap-gutter mt-space-xl p-space-md rounded-2xl bg-surface-glass border border-white/10 backdrop-blur-2xl shadow-[0_10px_35px_rgba(0,0,0,0.6)]">
+<div class="flex flex-col items-center text-center p-space-xs">
+<span class="font-display-lg text-[34px] lg:text-[42px] text-primary-container leading-none font-extrabold tracking-tight">48H</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-text-muted mt-1.5 font-semibold">Turnaround Guarantee</span>
+</div>
+<div class="flex flex-col items-center text-center p-space-xs">
+<span class="font-display-lg text-[34px] lg:text-[42px] text-text-primary leading-none font-extrabold tracking-tight">500+</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-text-muted mt-1.5 font-semibold">Projects Shipped</span>
+</div>
+<div class="flex flex-col items-center text-center p-space-xs">
+<span class="font-display-lg text-[34px] lg:text-[42px] text-primary-container leading-none font-extrabold tracking-tight">100+</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-text-muted mt-1.5 font-semibold">Vetted Editors</span>
+</div>
+<div class="flex flex-col items-center text-center p-space-xs">
+<span class="font-display-lg text-[34px] lg:text-[42px] text-text-primary leading-none font-extrabold tracking-tight">4.9/5</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-text-muted mt-1.5 font-semibold">Client Rating</span>
+</div>
+</div>
+<!-- Interactive Real-Time Fluid Water Ripple & Cursor Liquid Simulation Container -->
+<div class="w-full max-w-6xl mt-space-lg rounded-2xl lg:rounded-3xl overflow-hidden bg-surface-elevated/90 border border-[#76FF03]/30 shadow-[0_0_50px_rgba(118,255,3,0.18)] backdrop-blur-2xl relative group">
+<!-- Fluid Viewport Top HUD Chrome -->
+<div class="h-12 bg-surface-container-lowest/90 px-space-md flex items-center justify-between text-text-muted font-label-sm text-label-sm border-b border-white/5 backdrop-blur-md">
+<div class="flex items-center gap-space-sm">
+<span class="w-3 h-3 rounded-full bg-error/70"></span>
+<span class="w-3 h-3 rounded-full bg-secondary/70"></span>
+<span class="w-3 h-3 rounded-full bg-primary-container/70 shadow-[0_0_8px_#76ff03]"></span>
+<span class="ml-2 font-mono text-primary-container text-[11px] font-semibold flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container animate-pulse"></span>
+INTERACTIVE FLUID DYNAMICS // MOUSE REFRACTION ACTIVE
+</span>
+</div>
+<div class="hidden md:flex items-center gap-space-md">
+<span class="inline-flex items-center gap-1.5 text-secondary font-mono text-[11px]">
+<span class="material-symbols-outlined text-[14px]">waves</span>
+VISCOSITY: 0.85
+</span>
+<span class="inline-flex items-center gap-1 text-primary-container font-mono text-[11px]">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+60 FPS // GPU ACCELERATED
+</span>
+</div>
+</div>
+<!-- WebGL Shader Liquid Simulation Viewport -->
+<div class="relative w-full h-[520px] bg-surface-void overflow-hidden">
+<!-- STITCH_SHADER_START:ANIMATION_8 class="w-full h-[520px] rounded-2xl relative overflow-hidden block" -->
+<div class="w-full h-[520px] rounded-2xl relative overflow-hidden block" style="display:block;">
+<canvas id="shader-canvas-ANIMATION_8" style="display:block;width:100%;height:100%" width="1150" height="520"></canvas>
+<script>
+(function() {
+  const canvas = document.getElementById('shader-canvas-ANIMATION_8');
+
+  // Sync the WebGL drawing-buffer size with the CSS-driven layout size.
+  // This fires on initial layout and whenever the element is resized.
+  function syncSize() {
+    const w = canvas.clientWidth  || 1280;
+    const h = canvas.clientHeight || 720;
+    if (canvas.width !== w || canvas.height !== h) {
+      canvas.width  = w;
+      canvas.height = h;
+    }
+  }
+  if (typeof ResizeObserver !== 'undefined') {
+    new ResizeObserver(syncSize).observe(canvas);
+  }
+  syncSize();
+
+  const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+  if (!gl) return;
+  const vs = `attribute vec2 a_position;
+varying vec2 v_texCoord;
+void main() {
+  v_texCoord = a_position * 0.5 + 0.5;
+  gl_Position = vec4(a_position, 0.0, 1.0);
+}`;
+  const fs = `precision highp float;
+
+uniform vec2 u_resolution;
+uniform float u_time;
+uniform vec2 u_mouse;
+
+// Simplex-style noise helper
+vec3 mod289(vec3 x) { return x - floor(x * (1.0 / 289.0)) * 289.0; }
+vec2 mod289(vec2 x) { return x - floor(x * (1.0 / 289.0)) * 289.0; }
+vec3 permute(vec3 x) { return mod289(((x*34.0)+1.0)*x); }
+
+float snoise(vec2 v) {
+    const vec4 C = vec4(0.211324865405187,  // (3.0-sqrt(3.0))/6.0
+                        0.366025403784439,  // 0.5*(sqrt(3.0)-1.0)
+                        -0.577350269189626, // -1.0 + 2.0 * C.x
+                        0.024390243902439); // 1.0 / 41.0
+    vec2 i  = floor(v + dot(v, C.yy) );
+    vec2 x0 = v -   i + dot(i, C.xx);
+    vec2 i1;
+    i1 = (x0.x > x0.y) ? vec2(1.0, 0.0) : vec2(0.0, 1.0);
+    vec4 x12 = x0.xyxy + C.xxzz;
+    x12.xy -= i1;
+    i = mod289(i);
+    vec3 p = permute( permute( i.y + vec3(0.0, i1.y, 1.0 ))
+        + i.x + vec3(0.0, i1.x, 1.0 ));
+    vec3 m = max(0.5 - vec3(dot(x0,x0), dot(x12.xy,x12.xy), dot(x12.zw,x12.zw)), 0.0);
+    m = m*m ;
+    m = m*m ;
+    vec3 x = 2.0 * fract(p * C.www) - 1.0;
+    vec3 h = abs(x) - 0.5;
+    vec3 ox = floor(x + 0.5);
+    vec3 a0 = x - ox;
+    m *= 1.79284291400159 - 0.85373472095314 * ( a0*a0 + h*h );
+    vec3 g;
+    g.x  = a0.x  * x0.x  + h.x  * x0.y;
+    g.yz = a0.yz * x12.xz + h.yz * x12.yw;
+    return 130.0 * dot(m, g);
+}
+
+void main() {
+    vec2 uv = gl_FragCoord.xy / u_resolution.xy;
+    vec2 mouse = u_mouse / u_resolution.xy;
+    
+    // Invert Y if needed
+    mouse.y = 1.0 - mouse.y;
+    
+    // Aspect ratio correction for ripple geometry
+    float aspect = u_resolution.x / u_resolution.y;
+    vec2 aspect_uv = vec2(uv.x * aspect, uv.y);
+    vec2 aspect_mouse = vec2(mouse.x * aspect, mouse.y);
+    
+    // Distance from cursor
+    float dist = length(aspect_uv - aspect_mouse);
+    
+    // Multi-layered organic wave distortion
+    float time = u_time * 0.85;
+    
+    // Ambient fluid stream
+    float n1 = snoise(uv * 3.5 + vec2(time * 0.15, time * 0.1));
+    float n2 = snoise(uv * 7.0 - vec2(time * 0.2, time * 0.15) + n1 * 0.5);
+    
+    // Dynamic interactive ripples radiating from cursor
+    float rippleFrequency = 32.0;
+    float rippleDecay = exp(-dist * 4.5);
+    float rippleWave = sin(dist * rippleFrequency - time * 4.0) * rippleDecay;
+    
+    // Secondary trailing cursor wave
+    float rippleWave2 = cos(dist * 18.0 - time * 2.5) * exp(-dist * 2.8);
+    
+    // Combined liquid displacement
+    vec2 displacement = vec2(
+        n1 * 0.04 + rippleWave * 0.06 * (aspect_uv.x - aspect_mouse.x) / (dist + 0.001),
+        n2 * 0.04 + rippleWave * 0.06 * (aspect_uv.y - aspect_mouse.y) / (dist + 0.001)
+    );
+    
+    vec2 distortedUV = uv + displacement;
+    
+    // Caustic light patterns and surface refraction
+    float caustic = pow(abs(snoise(distortedUV * 9.0 + vec2(time * 0.3, time * 0.2))), 3.0) * 1.6;
+    float rippleHighlight = pow(max(0.0, rippleWave * 1.5 + 0.5), 4.0) * rippleDecay * 2.2;
+    
+    // Color Palette: Deep Obsidian (#0A0A0C, #131315) + Neon Green (#76FF03, #A3E635) + Deep Emerald (#043B14)
+    vec3 deepBg = vec3(0.039, 0.039, 0.047);       // #0A0A0C
+    vec3 darkSurface = vec3(0.075, 0.075, 0.09);   // #131317
+    vec3 emeraldFluid = vec3(0.04, 0.25, 0.09);    // refracted deep fluid
+    vec3 neonGreen = vec3(0.463, 1.0, 0.012);      // #76FF03 primary accent
+    vec3 limeGlow = vec3(0.64, 0.90, 0.21);        // #A3E635 secondary highlight
+    vec3 causticWhite = vec3(0.92, 1.0, 0.85);
+    
+    // Ambient liquid gradient background
+    vec3 color = mix(deepBg, darkSurface, uv.y + n1 * 0.2);
+    
+    // Fluid refraction glow
+    float fluidMask = smoothstep(0.1, 0.8, n2 * 0.5 + 0.5);
+    color = mix(color, emeraldFluid, fluidMask * 0.45);
+    
+    // Caustic refraction veins
+    color += limeGlow * caustic * 0.35;
+    
+    // Ripple rim glow & cursor interaction illumination
+    float cursorProximityGlow = exp(-dist * 2.2) * 0.5;
+    color += neonGreen * rippleHighlight * 1.2;
+    color += neonGreen * cursorProximityGlow * (0.4 + 0.3 * sin(time * 3.0));
+    color += causticWhite * pow(rippleHighlight, 2.0) * 0.8;
+    
+    // Vignette towards edges to seamlessly blend with page container
+    float vignette = smoothstep(0.95, 0.4, length((uv - 0.5) * vec2(1.2, 1.0)));
+    color *= mix(0.75, 1.15, vignette);
+    
+    gl_FragColor = vec4(color, 1.0);
+}`;
+  function cs(type, src) {
+    const s = gl.createShader(type);
+    gl.shaderSource(s, src);
+    gl.compileShader(s);
+    return s;
+  }
+  const prog = gl.createProgram();
+  gl.attachShader(prog, cs(gl.VERTEX_SHADER, vs));
+  gl.attachShader(prog, cs(gl.FRAGMENT_SHADER, fs));
+  gl.linkProgram(prog);
+  gl.useProgram(prog);
+  const buf = gl.createBuffer();
+  gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1, 1,-1, -1,1, 1,1]), gl.STATIC_DRAW);
+  const pos = gl.getAttribLocation(prog, 'a_position');
+  gl.enableVertexAttribArray(pos);
+  gl.vertexAttribPointer(pos, 2, gl.FLOAT, false, 0, 0);
+  const uTime = gl.getUniformLocation(prog, 'u_time');
+  const uRes = gl.getUniformLocation(prog, 'u_resolution');
+  const uMouse = gl.getUniformLocation(prog, 'u_mouse');
+
+  // u_mouse is in pixel coordinates matching u_resolution (ShaderToy convention).
+  // Shaders that need normalized coords should use: u_mouse / u_resolution.
+  let mouse = { x: canvas.width / 2, y: canvas.height / 2 };
+  window.addEventListener('mousemove', (event) => {
+    const rect = canvas.getBoundingClientRect();
+    if (rect.width && rect.height) {
+      const nx = (event.clientX - rect.left) / rect.width;
+      const ny = 1.0 - (event.clientY - rect.top) / rect.height;
+      mouse.x = nx * canvas.width;
+      mouse.y = ny * canvas.height;
+    }
+  });
+
+  function render(t) {
+    if (typeof ResizeObserver === 'undefined') syncSize();
+    gl.viewport(0, 0, canvas.width, canvas.height);
+    if (uTime) gl.uniform1f(uTime, t * 0.001);
+    if (uRes) gl.uniform2f(uRes, canvas.width, canvas.height);
+    if (uMouse) gl.uniform2f(uMouse, mouse.x, mouse.y);
+    gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+    requestAnimationFrame(render);
+  }
+  render(0);
+})();
+</script>
+</div>
+<!-- STITCH_SHADER_END:ANIMATION_8 -->
+<!-- Subtle Vignette & Gradient Overlays -->
+<div class="absolute inset-0 bg-gradient-to-t from-surface-void/70 via-transparent to-surface-void/40 pointer-events-none"></div>
+<!-- Top Left HUD Telemetry Badge -->
+<div class="absolute top-4 left-4 hidden sm:flex flex-col gap-1 bg-surface-void/80 border border-white/10 p-2.5 rounded-xl backdrop-blur-md pointer-events-none">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-ping"></span>
+<span class="font-mono text-label-sm text-text-primary font-bold tracking-wider">REAL-TIME LIQUID ENGINE</span>
+</div>
+<span class="font-mono text-[10px] text-text-muted">Simplex Wave Dispersion • 32.0Hz Caustics</span>
+</div>
+<!-- Top Right HUD Controls Pill -->
+<div class="absolute top-4 right-4 flex items-center gap-2 bg-surface-void/85 border border-primary-container/30 px-3 py-2 rounded-xl backdrop-blur-md shadow-lg">
+<span class="font-mono text-[11px] text-primary-container font-semibold hidden sm:inline">Refraction: Neon Green #76FF03</span>
+<button class="px-2.5 py-1 rounded-lg bg-surface-elevated hover:bg-primary-container hover:text-on-primary-container border border-white/10 text-text-primary font-mono text-[10px] uppercase tracking-wider transition-all flex items-center gap-1 cursor-pointer" onclick="const s = this.closest('.relative').querySelector('webgl-shader'); if(s) { s.dispatchEvent(new MouseEvent('mousemove', { clientX: 200, clientY: 200 })); }">
+<span class="material-symbols-outlined text-[13px]">refresh</span>
+<span class="">Reset Waves</span>
+</button>
+</div>
+<!-- Center-Bottom Interactive Prompt Pill -->
+<div class="absolute bottom-5 left-1/2 -translate-x-1/2 px-4 py-2 rounded-full bg-surface-elevated/90 border border-primary-container/40 shadow-[0_0_25px_rgba(118,255,3,0.3)] backdrop-blur-xl pointer-events-none flex items-center gap-2">
+<span class="text-primary-container font-mono text-[12px] font-bold tracking-wide flex items-center gap-1.5 animate-pulse">
+<span class="">✦</span> MOVE CURSOR TO RIPPLE LIQUID &amp; REFRACT NEON PARTICLES
+</span>
+</div>
+</div>
+<!-- Bottom HUD Bar -->
+<div class="bg-surface-container-lowest/90 px-space-md py-2.5 flex flex-wrap items-center justify-between gap-2 border-t border-white/5 font-mono text-[11px] text-text-muted">
+<div class="flex items-center gap-3">
+<span class="text-on-surface">Fluid Viscosity: <span class="text-primary-container">0.85</span></span>
+<span class="text-white/20">|</span>
+<span class="text-on-surface">Displacement Scale: <span class="text-secondary">0.06</span></span>
+<span class="text-white/20 hidden sm:inline">|</span>
+<span class="hidden sm:inline text-on-surface">Surface Caustic: <span class="text-text-primary">1.6x</span></span>
+</div>
+<div class="flex items-center gap-2 text-primary-container">
+<span class="material-symbols-outlined text-[15px]">sensors</span>
+<span class="">INTERACTIVE SHADER READY</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== SECTION 2: COMPREHENSIVE CREATIVE SERVICES (5 OFFERINGS) ==================== -->
+<section class="w-full px-margin lg:px-margin-lg py-space-xl bg-surface-container-lowest/70 border-y border-white/5" id="services">
+<div class="max-w-4xl mx-auto text-center flex flex-col items-center gap-space-xs mb-space-xl">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-elevated border border-primary-container/20 font-mono text-[11px] text-primary-container uppercase">
+<span class="">Full-Stack Creative Studio</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-text-primary uppercase tracking-tight">
+  Comprehensive Creative Services
+</h2>
+<p class="font-body-md text-body-md text-text-muted max-w-2xl">
+  End-to-end creative production executed by elite specialists in editing, retouching, and visual branding.
+</p>
+</div>
+<!-- 5 Services Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter max-w-6xl mx-auto">
+<!-- Service 1: Video Editing & Reels -->
+<div class="p-space-lg rounded-2xl bg-surface-glass border border-white/10 backdrop-blur-xl flex flex-col justify-between gap-space-md hover:border-primary-container/50 hover:shadow-[0_0_30px_rgba(118,255,3,0.18)] transition-all duration-300 group">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-surface-elevated border border-white/10 text-primary-container flex items-center justify-center group-hover:bg-primary-container group-hover:text-on-primary-container transition-all shadow-md">
+<span class="material-symbols-outlined text-[28px]">movie_edit</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary group-hover:text-primary-container transition-colors">
+  Video Editing &amp; Reels
+</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+  High-retention short-form reels, commercial cuts, viral sound design, motion captions, pacing architecture, and high-impact ad creatives crafted for Instagram, TikTok, and YouTube.
+</p>
+</div>
+<div class="pt-2 flex items-center justify-between border-t border-white/5">
+<span class="font-mono text-[11px] text-secondary font-semibold">$15 / 2 Edited Reels</span>
+<a class="inline-flex items-center gap-1 font-label-sm text-label-sm text-primary-container hover:underline" href="#pricing">Explore Offering <span class="material-symbols-outlined text-[14px]">arrow_forward</span></a>
+</div>
+</div>
+<!-- Service 2: Photo & Image Editing -->
+<div class="p-space-lg rounded-2xl bg-surface-glass border border-white/10 backdrop-blur-xl flex flex-col justify-between gap-space-md hover:border-primary-container/50 hover:shadow-[0_0_30px_rgba(118,255,3,0.18)] transition-all duration-300 group">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-surface-elevated border border-white/10 text-primary-container flex items-center justify-center group-hover:bg-primary-container group-hover:text-on-primary-container transition-all shadow-md">
+<span class="material-symbols-outlined text-[28px]">auto_fix_high</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary group-hover:text-primary-container transition-colors">
+  Photo &amp; Image Editing
+</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+  Professional color grading, micro skin retouching with frequency separation, commercial product manipulation, background reconstruction, and luxury look development.
+</p>
+</div>
+<div class="pt-2 flex items-center justify-between border-t border-white/5">
+<span class="font-mono text-[11px] text-secondary font-semibold">$5 – $10 / Photo</span>
+<a class="inline-flex items-center gap-1 font-label-sm text-label-sm text-primary-container hover:underline" href="#pricing">Explore Offering <span class="material-symbols-outlined text-[14px]">arrow_forward</span></a>
+</div>
+</div>
+<!-- Service 3: Graphic Design & Ads -->
+<div class="p-space-lg rounded-2xl bg-surface-glass border border-white/10 backdrop-blur-xl flex flex-col justify-between gap-space-md hover:border-primary-container/50 hover:shadow-[0_0_30px_rgba(118,255,3,0.18)] transition-all duration-300 group">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-surface-elevated border border-white/10 text-primary-container flex items-center justify-center group-hover:bg-primary-container group-hover:text-on-primary-container transition-all shadow-md">
+<span class="material-symbols-outlined text-[28px]">ad_units</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary group-hover:text-primary-container transition-colors">
+  Graphic Design &amp; Ads
+</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+  High-converting ad posters, performance marketing banners, dynamic social carousels, event key visuals, and scroll-stopping promotional collateral built to convert.
+</p>
+</div>
+<div class="pt-2 flex items-center justify-between border-t border-white/5">
+<span class="font-mono text-[11px] text-secondary font-semibold">$10 / Project Asset</span>
+<a class="inline-flex items-center gap-1 font-label-sm text-label-sm text-primary-container hover:underline" href="#pricing">Explore Offering <span class="material-symbols-outlined text-[14px]">arrow_forward</span></a>
+</div>
+</div>
+<!-- Service 4: Branding & Logo Design -->
+<div class="p-space-lg rounded-2xl bg-surface-glass border border-white/10 backdrop-blur-xl flex flex-col justify-between gap-space-md hover:border-primary-container/50 hover:shadow-[0_0_30px_rgba(118,255,3,0.18)] transition-all duration-300 group">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-surface-elevated border border-white/10 text-primary-container flex items-center justify-center group-hover:bg-primary-container group-hover:text-on-primary-container transition-all shadow-md">
+<span class="material-symbols-outlined text-[28px]">design_services</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary group-hover:text-primary-container transition-colors">
+  Branding &amp; Logo Design
+</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+  Unique brand identity systems, modern minimalist vector logos, typographic systems, brand style guidelines, and scalable vector assets for forward-thinking brands.
+</p>
+</div>
+<div class="pt-2 flex items-center justify-between border-t border-white/5">
+<span class="font-mono text-[11px] text-secondary font-semibold">From $10 / Asset</span>
+<a class="inline-flex items-center gap-1 font-label-sm text-label-sm text-primary-container hover:underline" href="#pricing">Explore Offering <span class="material-symbols-outlined text-[14px]">arrow_forward</span></a>
+</div>
+</div>
+<!-- Service 5: Greetings & Custom Cards -->
+<div class="p-space-lg rounded-2xl bg-surface-glass border border-white/10 backdrop-blur-xl flex flex-col justify-between gap-space-md hover:border-primary-container/50 hover:shadow-[0_0_30px_rgba(118,255,3,0.18)] transition-all duration-300 group md:col-span-2 lg:col-span-2">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-surface-elevated border border-white/10 text-primary-container flex items-center justify-center group-hover:bg-primary-container group-hover:text-on-primary-container transition-all shadow-md">
+<span class="material-symbols-outlined text-[28px]">celebration</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary group-hover:text-primary-container transition-colors">
+  Greetings &amp; Custom Cards
+</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+  Premium festival, corporate, and private event greeting cards, seasonal launch announcements, animated digital invites, and bespoke holiday stationery formatted for print and digital distribution.
+</p>
+</div>
+<div class="pt-2 flex items-center justify-between border-t border-white/5">
+<span class="font-mono text-[11px] text-secondary font-semibold">$10 / Bespoke Card</span>
+<a class="inline-flex items-center gap-1 font-label-sm text-label-sm text-primary-container hover:underline" href="#pricing">Explore Offering <span class="material-symbols-outlined text-[14px]">arrow_forward</span></a>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== SECTION 3: EXACT PRICING ARCHITECTURE ==================== -->
+<section class="w-full px-margin lg:px-margin-lg py-space-xl" id="pricing">
+<div class="max-w-4xl mx-auto text-center flex flex-col items-center gap-space-xs mb-space-xl">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-elevated border border-primary-container/20 font-mono text-[11px] text-primary-container uppercase">
+<span class="">Direct Transparent Pricing</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-text-primary uppercase tracking-tight">
+  Custom Pricing Architecture
+</h2>
+<p class="font-body-md text-body-md text-text-muted max-w-2xl">
+  Transparent creator-first pricing. No hidden fees or agency bloat. Volume discounts applied automatically.
+</p>
+</div>
+<!-- 3 Exact Pricing Cards Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-gutter items-stretch max-w-6xl mx-auto">
+<!-- Card 1: Photo & Image Retouching -->
+<div class="p-space-lg rounded-2xl bg-surface-glass border border-white/10 backdrop-blur-xl flex flex-col justify-between gap-space-lg hover:border-white/20 transition-all">
+<div class="flex flex-col gap-space-md">
+<div>
+<span class="font-mono text-[11px] text-secondary uppercase font-semibold">Still Media</span>
+<h3 class="font-headline-sm text-headline-sm text-text-primary mt-1">Photo &amp; Image Retouching</h3>
+<p class="font-body-sm text-body-sm text-text-muted mt-1">Commercial beauty, studio editorial, product and lifestyle imagery.</p>
+</div>
+<div class="flex items-baseline gap-1.5 py-1">
+<span class="font-display-lg text-[44px] text-text-primary font-extrabold">$5 – $10</span>
+<span class="font-label-sm text-label-sm text-text-muted uppercase">/ per photo</span>
+</div>
+<ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-text-muted border-t border-white/5 pt-space-sm">
+<li class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+High-end skin retouching (Pore &amp; texture preservation)
+</li>
+<li class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+Master color grading &amp; tone equalization
+</li>
+<li class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+E-commerce &amp; editorial luxury finish
+</li>
+<li class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+Rapid 24–48h turnaround
+</li>
+<li class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+2 free revision rounds included
+</li>
+</ul>
+</div>
+<a class="w-full py-3 rounded-full bg-surface-container border border-white/10 text-text-primary hover:bg-primary-container hover:text-on-primary-container font-headline-sm text-[13px] uppercase tracking-wider text-center transition-all font-bold" href="#client-inquiry" onclick="preselectService('photo')">
+Book Service
+</a>
+</div>
+<!-- Card 2: Video Editing (Reels) — HIGHLIGHTED BEST VALUE -->
+<div class="relative p-space-lg rounded-2xl bg-surface-elevated border-2 border-primary-container shadow-[0_0_40px_rgba(118,255,3,0.3)] flex flex-col justify-between gap-space-lg transform lg:-translate-y-2">
+<!-- Top Highlight Badge -->
+<div class="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-primary-container text-on-primary-container font-label-sm text-[10px] uppercase tracking-widest font-extrabold shadow-[0_0_15px_#76ff03]">
+Most Popular / Best Value
+</div>
+<div class="flex flex-col gap-space-md pt-2">
+<div>
+<span class="font-mono text-[11px] text-primary-container uppercase font-semibold">Short-Form Motion</span>
+<h3 class="font-headline-sm text-headline-sm text-text-primary mt-1">Video Editing (Reels)</h3>
+<p class="font-body-sm text-body-sm text-text-muted mt-1">Engineered to maximize average view duration and algorithmic reach.</p>
+</div>
+<div class="flex items-baseline gap-1.5 py-1">
+<span class="font-display-lg text-[44px] text-primary-container font-extrabold">$15</span>
+<span class="font-label-sm text-label-sm text-text-muted uppercase">/ for 2 Edited Reels</span>
+</div>
+<ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-text-muted border-t border-white/5 pt-space-sm">
+<li class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+Fast-paced retention cuts &amp; seamless transitions
+</li>
+<li class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+Viral sound design, risers, hits &amp; custom SFX
+</li>
+<li class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+Dynamic kinetic animated captions &amp; emojis
+</li>
+<li class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+9:16 vertical hook optimization for IG, TikTok &amp; Shorts
+</li>
+<li class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+Color grade + sound leveling included
+</li>
+</ul>
+</div>
+<a class="w-full py-3.5 rounded-full bg-primary-container text-on-primary-container font-headline-sm text-[13px] uppercase tracking-wider text-center shadow-[0_0_20px_rgba(118,255,3,0.45)] hover:shadow-[0_0_35px_rgba(118,255,3,0.7)] transition-all font-bold hover:scale-[1.02]" href="#client-inquiry" onclick="preselectService('reels')">
+Book Service
+</a>
+</div>
+<!-- Card 3: Posters, Logos, Greetings & Design -->
+<div class="p-space-lg rounded-2xl bg-surface-glass border border-white/10 backdrop-blur-xl flex flex-col justify-between gap-space-lg hover:border-white/20 transition-all">
+<div class="flex flex-col gap-space-md">
+<div>
+<span class="font-mono text-[11px] text-secondary uppercase font-semibold">Visual Branding &amp; Print</span>
+<h3 class="font-headline-sm text-headline-sm text-text-primary mt-1">Posters, Logos, Greetings &amp; Design</h3>
+<p class="font-body-sm text-body-sm text-text-muted mt-1">Marketing collateral, minimalist logos, banners &amp; custom festive cards.</p>
+</div>
+<div class="flex items-baseline gap-1.5 py-1">
+<span class="font-display-lg text-[44px] text-text-primary font-extrabold">$10</span>
+<span class="font-label-sm text-label-sm text-text-muted uppercase">/ per project / asset</span>
+</div>
+<ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-text-muted border-t border-white/5 pt-space-sm">
+<li class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+High-converting social media ad posters &amp; banners
+</li>
+<li class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+Minimalist vector logos with source vectors (SVG, AI)
+</li>
+<li class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+Festival &amp; corporate custom greeting cards
+</li>
+<li class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+High-res print-ready 300 DPI exports
+</li>
+<li class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+Fast revision cycle &amp; full commercial ownership
+</li>
+</ul>
+</div>
+<a class="w-full py-3 rounded-full bg-surface-container border border-white/10 text-text-primary hover:bg-primary-container hover:text-on-primary-container font-headline-sm text-[13px] uppercase tracking-wider text-center transition-all font-bold" href="#client-inquiry" onclick="preselectService('design')">
+Book Service
+</a>
+</div>
+</div>
+<!-- Volume Note Banner -->
+<div class="max-w-4xl mx-auto mt-space-lg p-space-md rounded-2xl bg-surface-elevated/80 border border-primary-container/20 flex flex-col sm:flex-row items-center justify-between gap-space-sm text-center sm:text-left">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-container/10 border border-primary-container/30 text-primary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">inventory_2</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-[15px] text-text-primary">Need Bulk Volume or Custom Agency Retainer?</h4>
+<p class="font-body-sm text-body-sm text-text-muted">Order 10+ reels or ongoing monthly retainer packs for dedicated priority queues.</p>
+</div>
+</div>
+<a class="px-5 py-2 rounded-full bg-white/5 border border-white/15 hover:border-primary-container text-text-primary hover:text-primary-container font-label-sm text-label-sm uppercase tracking-wider transition-all shrink-0" href="#client-inquiry">
+Request Volume Quote
+</a>
+</div>
+</section>
+<!-- ==================== SECTION 4: FEATURED WORK / PORTFOLIO ==================== -->
+<section class="w-full px-margin lg:px-margin-lg py-space-xl bg-surface-container-lowest/50 border-t border-white/5" id="work">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-lg">
+<div class="flex flex-col gap-space-xs max-w-xl">
+<div class="inline-flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary-container">Selected Productions</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-text-primary uppercase tracking-tight">
+  Curated Visual Case Studies
+</h2>
+<p class="font-body-md text-body-md text-text-muted">
+  Short-form viral reels, commercial cuts, high-end skin retouching, vector brand identity, and high-impact ad posters.
+</p>
+</div>
+<!-- Portfolio Filter Pills -->
+<div class="flex flex-wrap items-center gap-2" id="portfolio-filter-container">
+<button class="portfolio-filter-btn px-space-md py-1.5 rounded-full bg-primary-container text-on-primary-container font-label-sm text-label-sm uppercase tracking-wider transition-all font-bold" onclick="filterPortfolio('all', this)">All Projects</button>
+<button class="portfolio-filter-btn px-space-md py-1.5 rounded-full bg-surface-elevated border border-white/10 text-text-muted hover:text-text-primary hover:bg-surface-container font-label-sm text-label-sm uppercase tracking-wider transition-all" onclick="filterPortfolio('reels', this)">Reels</button>
+<button class="portfolio-filter-btn px-space-md py-1.5 rounded-full bg-surface-elevated border border-white/10 text-text-muted hover:text-text-primary hover:bg-surface-container font-label-sm text-label-sm uppercase tracking-wider transition-all" onclick="filterPortfolio('commercial', this)">Commercial Cut</button>
+<button class="portfolio-filter-btn px-space-md py-1.5 rounded-full bg-surface-elevated border border-white/10 text-text-muted hover:text-text-primary hover:bg-surface-container font-label-sm text-label-sm uppercase tracking-wider transition-all" onclick="filterPortfolio('retouch', this)">Retouching</button>
+<button class="portfolio-filter-btn px-space-md py-1.5 rounded-full bg-surface-elevated border border-white/10 text-text-muted hover:text-text-primary hover:bg-surface-container font-label-sm text-label-sm uppercase tracking-wider transition-all" onclick="filterPortfolio('brand', this)">Brand Identity</button>
+<button class="portfolio-filter-btn px-space-md py-1.5 rounded-full bg-surface-elevated border border-white/10 text-text-muted hover:text-text-primary hover:bg-surface-container font-label-sm text-label-sm uppercase tracking-wider transition-all" onclick="filterPortfolio('ads', this)">Ad Posters</button>
+</div>
+</div>
+<!-- 6 Portfolio Showcase Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter" id="portfolio-grid">
+<!-- Card 1: Viral Short-Form Reel (Reels) -->
+<div class="portfolio-card group flex flex-col rounded-2xl bg-surface-glass border border-white/10 backdrop-blur-xl overflow-hidden hover:border-primary-container/50 hover:shadow-[0_0_35px_rgba(118,255,3,0.2)] transition-all duration-300" data-category="reels">
+<div class="relative w-full aspect-video bg-surface-void overflow-hidden">
+<img alt="High energy video reel showcase video thumbnail" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuANFBwm-cGNm9R5OmqpR1OEez50kqa1vMnQXbSzX18BOfZvJWJA2cBR2ojd8f-YsEO-4EzTbfpotKVM1XWn4O3VKBwZxRQvvklr7ZM_CzxvwE5v46xsCb262pTCgxu4j4bzLC35CMfafwquSQvolkKWjjJ-sfEQbN2S4biVKjfqJPK11BeB3jkq6HdvPPIqnTVQ2Q8w4f0Qxocd5qWUygWlxEdqD9KRU_-Ja_p5q3Ht">
+<div class="absolute inset-0 bg-surface-void/30 group-hover:bg-surface-void/10 transition-colors"></div>
+<div class="absolute top-3 left-3 px-2 py-0.5 rounded-full bg-surface-void/80 text-primary-container font-mono text-[11px] font-bold">
+  9:16 VERTICAL // +84% RETENTION
+</div>
+<div class="absolute top-3 right-3 px-2 py-0.5 rounded-full bg-primary-container/90 text-on-primary-container font-label-sm text-[10px] uppercase font-bold">
+  Reels
+</div>
+<div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="w-14 h-14 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center shadow-[0_0_20px_#76ff03]">
+<span class="material-symbols-outlined text-[28px]">play_arrow</span>
+</div>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div class="flex flex-col gap-1">
+<div class="flex items-center justify-between text-text-muted font-mono text-[11px]">
+<span class="">CREATOR: KAI MEDIA</span>
+<span class="">PREMIERE + AFTER EFFECTS</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary group-hover:text-primary-container transition-colors">
+  Apex Viral Reels Pack
+</h3>
+<p class="font-body-sm text-body-sm text-text-muted line-clamp-2">
+  Rapid 0.8s hook pacing, kinetic text animations, punch-in zooms, and proprietary retention sound effects.
+</p>
+</div>
+<div class="flex flex-wrap items-center gap-1.5 pt-2">
+<span class="px-2 py-0.5 rounded bg-surface-container font-mono text-[10px] text-text-muted">9:16 Reels</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-mono text-[10px] text-text-muted">Sound FX</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-mono text-[10px] text-primary-container">$15 / 2 Reels</span>
+</div>
+</div>
+</div>
+<!-- Card 2: Commercial Cut (Hyperion Cyberpunk) -->
+<div class="portfolio-card group flex flex-col rounded-2xl bg-surface-glass border border-white/10 backdrop-blur-xl overflow-hidden hover:border-primary-container/50 hover:shadow-[0_0_35px_rgba(118,255,3,0.2)] transition-all duration-300" data-category="commercial">
+<div class="relative w-full aspect-video bg-surface-void overflow-hidden">
+<img alt="Futuristic neon cyberpunk electric vehicle speeding" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6ZG59PeFYrGdAwbTXim8L8WDvulLWEBNyGmIY0Z_0M3BJ9NhfkaXsh4_GW4TCh2DNaHjrzu0xx9miBvhR1lsVfpMIGw1XIT82m3P5XfuYo8DIPyszJnnyRmXCHv2vvLnRv0oTFcRqSNqxxN97y0SnkrJy-ASLej6iOFy3xO4XsHUpcY4hojAetylmWtvakewXoFGj1gp1ypF-2QU-YM9blOlG1K4tc-AlcnPhfERZ">
+<div class="absolute inset-0 bg-surface-void/30 group-hover:bg-surface-void/10 transition-colors"></div>
+<div class="absolute top-3 left-3 px-2 py-0.5 rounded-full bg-surface-void/80 text-primary-container font-mono text-[11px] font-bold">
+  4K MASTER // 01:24
+</div>
+<div class="absolute top-3 right-3 px-2 py-0.5 rounded-full bg-surface-elevated/90 text-text-primary font-label-sm text-[10px] uppercase">
+  Commercial Cut
+</div>
+<div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="w-14 h-14 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center shadow-[0_0_20px_#76ff03]">
+<span class="material-symbols-outlined text-[28px]">play_arrow</span>
+</div>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div class="flex flex-col gap-1">
+<div class="flex items-center justify-between text-text-muted font-mono text-[11px]">
+<span class="">CLIENT: HYPERION DYNAMICS</span>
+<span class="">DAVINCI STUDIO</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary group-hover:text-primary-container transition-colors">
+  Hyperion Cyberpunk Teaser
+</h3>
+<p class="font-body-sm text-body-sm text-text-muted line-clamp-2">
+  Fast-paced commercial soundscape, dynamic speed-ramping, 3D tracking integration, and dystopian color grade.
+</p>
+</div>
+<div class="flex flex-wrap items-center gap-1.5 pt-2">
+<span class="px-2 py-0.5 rounded bg-surface-container font-mono text-[10px] text-text-muted">Speed Ramps</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-mono text-[10px] text-text-muted">DaVinci Color</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-mono text-[10px] text-primary-container">Commercial Cut</span>
+</div>
+</div>
+</div>
+<!-- Card 3: Vogue Nordic High-Fashion Retouch (Retouching) -->
+<div class="portfolio-card group flex flex-col rounded-2xl bg-surface-glass border border-white/10 backdrop-blur-xl overflow-hidden hover:border-primary-container/50 hover:shadow-[0_0_35px_rgba(118,255,3,0.2)] transition-all duration-300" data-category="retouch">
+<div class="relative w-full aspect-video bg-surface-void overflow-hidden select-none">
+<img alt="High fashion editorial portrait" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZghbU8GUVXoV0Aj-ZYpetedIbOx_MX9g8Nvnx3N3jHbdd_yTym-8PQ-rUp_BXaKA3_ZOWn1apTb3H81Azbg-AM1N9AugMSAznBL2CWsoeo2UeenTmuI4equMTOw5vJg_hLnB88Flw5PR6zQw10WC44Dngeh9g3r3YqVIvt-CWVty4kxpD7zZmyZkGxZmHYcXXmjiMkGqvsd0E5XuKKi3vOZCe11qkxYA8SWz48ySd">
+<div class="absolute inset-0 w-1/2 overflow-hidden bg-surface-void">
+<img alt="Raw unretouched high fashion studio portrait" class="absolute inset-0 w-full h-full object-cover max-w-none" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDc2kFxm-5Q94v9mz6VCT9MXI2Jm6J2cYe_JL_ckLg_qzyA9elU3TDJGN6L0u5UJy3fxVO3ljcjFCkFq6iz3QCTobTsPKEPuTkH07LPtgxiy7XH2Uy4Qf_z1S8dI9nYk65GcEJK8ffvGOIaII8xfySOf34tti2OBHPonXBwPVqt8hRYA9TR-D3k7kdZMPeXI1iz9ILkzQZa_ITW1sgRrwBhyJehrfUZvzp4vmdItEcx" style="width: 200%; height: 100%;">
+</div>
+<div class="absolute top-0 bottom-0 left-1/2 -translate-x-1/2 w-0.5 bg-primary-container shadow-[0_0_12px_#76ff03] pointer-events-none flex items-center justify-center">
+<div class="w-6 h-6 rounded-full bg-surface-void text-primary-container flex items-center justify-center shadow-lg font-mono text-[9px] font-bold">VS</div>
+</div>
+<div class="absolute top-3 left-3 px-2 py-0.5 rounded bg-surface-void/80 text-text-muted font-mono text-[10px]">BEFORE</div>
+<div class="absolute top-3 right-3 px-2 py-0.5 rounded bg-surface-void/80 text-primary-container font-mono text-[10px]">AFTER ($5-$10)</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div class="flex flex-col gap-1">
+<div class="flex items-center justify-between text-text-muted font-mono text-[11px]">
+<span class="">EDITORIAL: VOGUE NORDIC</span>
+<span class="">PHOTOSHOP + CAPTURE ONE</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary group-hover:text-primary-container transition-colors">
+  Vogue Nordic Editorial Retouch
+</h3>
+<p class="font-body-sm text-body-sm text-text-muted line-clamp-2">
+  16-bit frequency separation, micro dodge &amp; burn, specular sculpting, and hair composite masking with pristine pores.
+</p>
+</div>
+<div class="flex flex-wrap items-center gap-1.5 pt-2">
+<span class="px-2 py-0.5 rounded bg-surface-container font-mono text-[10px] text-text-muted">Skin Texture</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-mono text-[10px] text-text-muted">Color Grading</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-mono text-[10px] text-primary-container">Retouching</span>
+</div>
+</div>
+</div>
+<!-- Card 4: Brand Identity (Minimalist Vector Systems) -->
+<div class="portfolio-card group flex flex-col rounded-2xl bg-surface-glass border border-white/10 backdrop-blur-xl overflow-hidden hover:border-primary-container/50 hover:shadow-[0_0_35px_rgba(118,255,3,0.2)] transition-all duration-300" data-category="brand">
+<div class="relative w-full aspect-video bg-[#070709] p-8 flex items-center justify-center overflow-hidden">
+<img alt="Fusion Forma Brand Identity Vector Art" class="h-28 w-auto object-contain group-hover:scale-110 transition-transform duration-500 drop-shadow-[0_0_25px_rgba(118,255,3,0.3)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBh0eQ1JktMRvRp30p3OTtGniCLH6VVAuUDNH8fYZrR__zLTfxPYiabRVnPobOsKGEQu36Ca5Vji_sYcpZfkQRNtVoFATUyQFs1lV276_qgsrKljjLOlQDlTbPmXI2d-hrhA9PL9NzGAZiWsg4GDmK6biqH_VJeLqMWQ6dCAEzf5Vb5fCf4gp3gvO6FrgyNz6dRJi9MATuR4f6knS9JNJVHQ2EZ0j5WPlK7oy33-acRh-e7kEJp66T56S_oe_A-dBh1_ao">
+<div class="absolute top-3 left-3 px-2 py-0.5 rounded-full bg-surface-void/80 text-primary-container font-mono text-[11px] font-bold">
+  VECTOR SVG + AI
+</div>
+<div class="absolute top-3 right-3 px-2 py-0.5 rounded-full bg-surface-elevated/90 text-text-primary font-label-sm text-[10px] uppercase">
+  Brand Identity
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div class="flex flex-col gap-1">
+<div class="flex items-center justify-between text-text-muted font-mono text-[11px]">
+<span class="">STARTUP: FORMA LABS</span>
+<span class="">ILLUSTRATOR + FIGMA</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary group-hover:text-primary-container transition-colors">
+  Futuristic Tech Brandmark &amp; Systems
+</h3>
+<p class="font-body-sm text-body-sm text-text-muted line-clamp-2">
+  Geometric neon monogram architecture, complete responsive typography scale, social favicon lockups, and design system.
+</p>
+</div>
+<div class="flex flex-wrap items-center gap-1.5 pt-2">
+<span class="px-2 py-0.5 rounded bg-surface-container font-mono text-[10px] text-text-muted">Vector Logo</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-mono text-[10px] text-text-muted">Guidelines</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-mono text-[10px] text-primary-container">Brand Identity</span>
+</div>
+</div>
+</div>
+<!-- Card 5: Ad Posters (Aetherium Energy Drink Launch) -->
+<div class="portfolio-card group flex flex-col rounded-2xl bg-surface-glass border border-white/10 backdrop-blur-xl overflow-hidden hover:border-primary-container/50 hover:shadow-[0_0_35px_rgba(118,255,3,0.2)] transition-all duration-300" data-category="ads">
+<div class="relative w-full aspect-video bg-surface-void overflow-hidden">
+<img alt="Dynamic beverage commercial freeze frame with neon liquid" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLosPjFNecLNyNNz3FOdV6V7rpOSwRB1KtepvLfaM6fnUxzVwVi3lBJO8xHg4l4NP-_C7Ldl9xxus2b4StTiJBCcOzwv4sYIBTOWYigTujSyXaEmylqsyTexpnbw6RzYwUo3MWoe6FLoe89fqYfHOzba0hXc_ndIiieaLtd6XmuxAJl0CmyYCJm0B1bhjewGfWI1RdXXV1z3170RUzlTOVAq9V-AXot-UYXMzFxN8U">
+<div class="absolute inset-0 bg-surface-void/25 group-hover:bg-surface-void/10 transition-colors"></div>
+<div class="absolute top-3 left-3 px-2 py-0.5 rounded-full bg-surface-void/80 text-primary-container font-mono text-[11px] font-bold">
+  3.8X ROAS CAMPAIGN
+</div>
+<div class="absolute top-3 right-3 px-2 py-0.5 rounded-full bg-surface-elevated/90 text-text-primary font-label-sm text-[10px] uppercase">
+  Ad Posters
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div class="flex flex-col gap-1">
+<div class="flex items-center justify-between text-text-muted font-mono text-[11px]">
+<span class="">BRAND: AETHERIUM BEV</span>
+<span class="">PHOTOSHOP + BLENDER</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary group-hover:text-primary-container transition-colors">
+  Performance Ad Creative Posters
+</h3>
+<p class="font-body-sm text-body-sm text-text-muted line-clamp-2">
+  High-converting paid acquisition billboard and Instagram story ad posters with 3D fluid splashes and bold typography.
+</p>
+</div>
+<div class="flex flex-wrap items-center gap-1.5 pt-2">
+<span class="px-2 py-0.5 rounded bg-surface-container font-mono text-[10px] text-text-muted">Marketing Ad</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-mono text-[10px] text-text-muted">High Conversion</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-mono text-[10px] text-primary-container">Ad Posters</span>
+</div>
+</div>
+</div>
+<!-- Card 6: Titanium X Automotive Reveal (Commercial Cut) -->
+<div class="portfolio-card group flex flex-col rounded-2xl bg-surface-glass border border-white/10 backdrop-blur-xl overflow-hidden hover:border-primary-container/50 hover:shadow-[0_0_35px_rgba(118,255,3,0.2)] transition-all duration-300" data-category="commercial">
+<div class="relative w-full aspect-video bg-surface-void overflow-hidden">
+<img alt="Hypercar sleek curves illuminated in dark studio" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAmBgt3vQvG_9s8Mfm8xIBRf_DLZf8pWQuvgMl4Wz3SqcLwZac6xe-gtnog51B6Ltd8vhtjdMM-6ikgqoQSTYnzihulJQdoJjFnNMHbgwB9rHOcu7QW-GcUp82gxOwdvcK6qFyhX1lBVufneHt90wk_piB3164zpthbWduPgS1W12YGaVqJohg4iBPWn7aJNULeZfKhSMp4wITgaoAXbZwx6UK4h4l674EOFQUdmIr">
+<div class="absolute inset-0 bg-surface-void/30 group-hover:bg-surface-void/10 transition-colors"></div>
+<div class="absolute top-3 left-3 px-2 py-0.5 rounded-full bg-surface-void/80 text-primary-container font-mono text-[11px] font-bold">
+  00:45 SPOT // BROADCAST
+</div>
+<div class="absolute top-3 right-3 px-2 py-0.5 rounded-full bg-surface-elevated/90 text-text-primary font-label-sm text-[10px] uppercase">
+  Commercial Cut
+</div>
+<div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="w-14 h-14 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center shadow-[0_0_20px_#76ff03]">
+<span class="material-symbols-outlined text-[28px]">play_arrow</span>
+</div>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div class="flex flex-col gap-1">
+<div class="flex items-center justify-between text-text-muted font-mono text-[11px]">
+<span class="">CLIENT: APEX MOTORS</span>
+<span class="">DAVINCI + AFTER EFFECTS</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary group-hover:text-primary-container transition-colors">
+  Titanium X Automotive Reveal
+</h3>
+<p class="font-body-sm text-body-sm text-text-muted line-clamp-2">
+  Dark-mode vehicle studio tracking, precision rotoscoping, reflective panel touchups, and immersive V8 exhaust sound design.
+</p>
+</div>
+<div class="flex flex-wrap items-center gap-1.5 pt-2">
+<span class="px-2 py-0.5 rounded bg-surface-container font-mono text-[10px] text-text-muted">Automotive</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-mono text-[10px] text-text-muted">Motion Tracking</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-mono text-[10px] text-primary-container">Commercial Cut</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== SECTION 5: DEDICATED EDITORS JOB PORTAL ==================== -->
+<section class="w-full px-margin lg:px-margin-lg py-space-xl relative" id="jobs">
+<div class="max-w-5xl mx-auto rounded-3xl bg-surface-elevated/90 border border-primary-container/30 backdrop-blur-2xl p-space-lg lg:p-space-xl shadow-[0_0_60px_rgba(118,255,3,0.18)] relative overflow-hidden">
+<!-- Glow Orb Background -->
+<div class="absolute -top-32 -left-32 w-80 h-80 bg-primary-container/20 rounded-full blur-[100px] pointer-events-none"></div>
+<div class="absolute -bottom-32 -right-32 w-80 h-80 bg-secondary/15 rounded-full blur-[100px] pointer-events-none"></div>
+<div class="relative z-10 flex flex-col lg:flex-row gap-space-xl items-start">
+<!-- Left Pitch Column -->
+<div class="lg:w-5/12 flex flex-col gap-space-md">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary-container/10 border border-primary-container/30 font-mono text-[11px] text-primary-container uppercase font-bold w-fit">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+CREATOR HIRING ACTIVE • REMOTE
+</div>
+<h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-text-primary uppercase tracking-tight leading-tight">
+  Join Our Creator Network
+  <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-container to-secondary block">(We Are Hiring Editors)</span>
+</h2>
+<p class="font-body-md text-body-md text-text-muted leading-relaxed">
+  Are you an exceptional video editor, retouch artist, or visual designer? Fusion Forma connects the top 1% of creative talent with global high-growth brands and premium creators.
+</p>
+<!-- Creator Benefits List -->
+<div class="flex flex-col gap-space-sm pt-2">
+<div class="flex items-start gap-3">
+<div class="w-7 h-7 rounded-lg bg-primary-container/10 border border-primary-container/30 flex items-center justify-center text-primary-container shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">public</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-[15px] text-text-primary">100% Remote &amp; Flexible</h4>
+<p class="font-body-sm text-body-sm text-text-muted">Work from anywhere on your own schedule with zero micromanagement.</p>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<div class="w-7 h-7 rounded-lg bg-primary-container/10 border border-primary-container/30 flex items-center justify-center text-primary-container shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">payments</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-[15px] text-text-primary">Prompt Guaranteed Payouts</h4>
+<p class="font-body-sm text-body-sm text-text-muted">Weekly direct transfers. Transparent per-project and retainer compensation.</p>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<div class="w-7 h-7 rounded-lg bg-primary-container/10 border border-primary-container/30 flex items-center justify-center text-primary-container shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">rocket_launch</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-[15px] text-text-primary">World-Class Brand Pipeline</h4>
+<p class="font-body-sm text-body-sm text-text-muted">Edit for top influencers, fashion magazines, hyper-growth consumer tech, and luxury automotive.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Form Column -->
+<div class="lg:w-7/12 w-full bg-surface-void/90 p-space-md sm:p-space-lg rounded-2xl border border-white/10 shadow-xl backdrop-blur-xl">
+<h3 class="font-headline-sm text-headline-sm text-text-primary uppercase tracking-wide mb-1">
+  Editor Application Form
+</h3>
+<p class="font-body-sm text-body-sm text-text-muted mb-space-md">Fill out your creative profile to enter the priority vetting queue.</p>
+<form class="flex flex-col gap-space-sm" id="editor-application-form" onsubmit="handleEditorSubmit(event)">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<!-- Full Name -->
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md uppercase tracking-wider text-text-muted" for="editor-name">Full Name *</label>
+<input class="w-full px-space-md py-2.5 rounded-xl bg-surface-elevated border border-white/10 text-on-surface font-body-sm text-body-sm placeholder:text-text-muted/50 focus:outline-none focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-all" id="editor-name" placeholder="Alex Morgan" required="" type="text">
+</div>
+<!-- Email / Phone Number -->
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md uppercase tracking-wider text-text-muted" for="editor-contact">Email / Phone *</label>
+<input class="w-full px-space-md py-2.5 rounded-xl bg-surface-elevated border border-white/10 text-on-surface font-body-sm text-body-sm placeholder:text-text-muted/50 focus:outline-none focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-all" id="editor-contact" placeholder="alex@creators.com / +1..." required="" type="text">
+</div>
+</div>
+<!-- Portfolio / Drive Link -->
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md uppercase tracking-wider text-text-muted" for="editor-portfolio">Portfolio / Drive Link (Past Work) *</label>
+<input class="w-full px-space-md py-2.5 rounded-xl bg-surface-elevated border border-white/10 text-on-surface font-body-sm text-body-sm placeholder:text-text-muted/50 focus:outline-none focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-all" id="editor-portfolio" placeholder="https://drive.google.com/... or Behance / Vimeo link" required="" type="url">
+</div>
+<!-- Specialization Dropdown -->
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md uppercase tracking-wider text-text-muted" for="editor-spec">Primary Creative Specialization *</label>
+<select class="w-full px-space-md py-2.5 rounded-xl bg-surface-elevated border border-white/10 text-on-surface font-body-sm text-body-sm focus:outline-none focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-all" id="editor-spec" required="">
+<option value="reels">Video Editor / Reels Specialist (9:16 Short-Form)</option>
+<option value="commercial">Commercial Video Editor &amp; Long-Form Storyteller</option>
+<option value="retoucher">Photo Retoucher / Colorist (Photoshop / DaVinci)</option>
+<option value="graphic">Graphic &amp; Ad Designer (Marketing Posters &amp; Banners)</option>
+<option value="brand">Brand &amp; Logo Designer (Vector Systems)</option>
+</select>
+</div>
+<!-- Short bio or software proficiencies -->
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md uppercase tracking-wider text-text-muted" for="editor-skills">Software Proficiencies &amp; Short Bio</label>
+<textarea class="w-full px-space-md py-2.5 rounded-xl bg-surface-elevated border border-white/10 text-on-surface font-body-sm text-body-sm placeholder:text-text-muted/50 focus:outline-none focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-all resize-none" id="editor-skills" placeholder="List software (Premiere Pro, After Effects, DaVinci Resolve, Photoshop, Illustrator) and your weekly availability..." rows="3"></textarea>
+</div>
+<!-- Submit Button -->
+<button class="w-full py-3.5 mt-2 rounded-full bg-primary-container text-on-primary-container font-headline-sm text-[14px] uppercase tracking-wider shadow-[0_0_25px_rgba(118,255,3,0.35)] hover:shadow-[0_0_40px_rgba(118,255,3,0.6)] hover:scale-[1.01] active:scale-[0.99] transition-all flex items-center justify-center gap-2 font-bold" id="editor-submit-btn" type="submit">
+<span class="">Submit Editor Application 🚀</span>
+</button>
+<!-- Success Message -->
+<div class="hidden p-space-md rounded-xl bg-primary-container text-on-primary-container font-headline-sm text-[13px] text-center tracking-wide font-bold" id="editor-success-banner">
+🎉 Application received! Our talent lead will review your portfolio and get in touch within 24 hours.
+</div>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== SECTION 6: CLIENT LEAD GENERATION & INQUIRY FORM ==================== -->
+<section class="w-full px-margin lg:px-margin-lg py-space-xl flex justify-center border-t border-white/5" id="client-inquiry">
+<div class="w-full max-w-4xl p-space-lg lg:p-space-xl rounded-3xl bg-surface-elevated/95 border border-white/10 backdrop-blur-2xl shadow-[0_0_50px_rgba(118,255,3,0.15)] relative overflow-hidden">
+<!-- Corner Accent Light -->
+<div class="absolute -top-24 -right-24 w-60 h-60 bg-primary-container/20 rounded-full blur-[80px] pointer-events-none"></div>
+<div class="flex flex-col gap-space-xs text-center items-center mb-space-lg">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container border border-primary-container/20 font-mono text-[11px] text-primary-container uppercase font-semibold">
+<span class="">Direct Production Checkout</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-text-primary uppercase tracking-tight">
+  Ready to Elevate Your Visual Output?
+</h2>
+<p class="font-body-md text-body-md text-text-muted max-w-lg">
+  Lock in our transparent rates. Tell us your requirements and attach your footage drive link for instant turnaround.
+</p>
+</div>
+<form class="flex flex-col gap-space-md" id="client-order-form" onsubmit="handleClientSubmit(event)">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Client Name -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md uppercase tracking-wider text-text-muted" for="client-name">Your Name / Company *</label>
+<input class="w-full px-space-md py-3 rounded-xl bg-surface-void border border-white/10 text-on-surface font-body-md text-body-md placeholder:text-text-muted/50 focus:outline-none focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-all" id="client-name" placeholder="e.g. Julian Sterling / Apex Brands" required="" type="text">
+</div>
+<!-- Client Email -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md uppercase tracking-wider text-text-muted" for="client-email">Work Email *</label>
+<input class="w-full px-space-md py-3 rounded-xl bg-surface-void border border-white/10 text-on-surface font-body-md text-body-md placeholder:text-text-muted/50 focus:outline-none focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-all" id="client-email" placeholder="director@company.com" required="" type="email">
+</div>
+</div>
+<!-- Select Service Tier -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md uppercase tracking-wider text-text-muted" for="client-service">Select Requested Service &amp; Rate *</label>
+<select class="w-full px-space-md py-3 rounded-xl bg-surface-void border border-white/10 text-on-surface font-body-md text-body-md focus:outline-none focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-all" id="client-service" required="">
+<option value="reels-15">Video Editing (Reels) — $15 / 2 Edited Reels (Most Popular)</option>
+<option value="photo-5-10">Photo &amp; Image Retouching — $5 – $10 / per photo</option>
+<option value="design-10">Posters, Logos, Greetings &amp; Design — $10 / project asset</option>
+<option value="commercial-full">Commercial Production &amp; Film Color Grade</option>
+<option value="monthly-retainer">Dedicated Monthly Creative Retainer</option>
+</select>
+</div>
+<!-- Project Brief & Drive Link -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md uppercase tracking-wider text-text-muted" for="client-brief">Project Brief &amp; Asset Drive Link *</label>
+<textarea class="w-full px-space-md py-3 rounded-xl bg-surface-void border border-white/10 text-on-surface font-body-md text-body-md placeholder:text-text-muted/50 focus:outline-none focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-all resize-none" id="client-brief" placeholder="Share your vision, links to Google Drive / Dropbox / Frame.io footage, audio preferences, or deadline requirements..." required="" rows="4"></textarea>
+</div>
+<!-- Submit Button -->
+<button class="w-full py-4 rounded-full bg-primary-container text-on-primary-container font-headline-sm text-headline-sm uppercase tracking-wider shadow-[0_0_30px_rgba(118,255,3,0.4)] hover:shadow-[0_0_50px_rgba(118,255,3,0.7)] hover:scale-[1.01] active:scale-[0.99] transition-all flex items-center justify-center gap-2 mt-2 font-bold" id="client-submit-btn" type="submit">
+<span class="">Send Inquiry &amp; Lock In Rate</span>
+<span class="material-symbols-outlined text-[22px]">rocket_launch</span>
+</button>
+<!-- Trust & Security Badges -->
+<div class="flex flex-wrap items-center justify-center gap-space-md text-center text-text-muted font-label-sm text-label-sm pt-2">
+<span class="inline-flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary-container text-[16px]">schedule</span>
+Guaranteed 48H turnaround
+</span>
+<span class="inline-flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary-container text-[16px]">verified_user</span>
+Strict mutual NDA protection
+</span>
+<span class="inline-flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary-container text-[16px]">verified</span>
+100% Satisfaction guarantee
+</span>
+<a class="inline-flex items-center gap-1.5 text-primary-container hover:underline transition-colors" href="mailto:your-official-email@gmail.com"><span class="material-symbols-outlined text-primary-container text-[16px]">mail</span>your-official-email@gmail.com</a></div>
+<!-- Success Alert Banner -->
+<div class="hidden p-space-md rounded-xl bg-primary-container text-on-primary-container font-headline-sm text-[14px] text-center tracking-wide font-bold" id="client-success-banner">
+🚀 Inquiry successfully received! Our lead producer will review your files and confirm delivery timing within 4 hours.
+</div>
+</form>
+</div>
+</section>
+</div>
+<!-- SHOWREEL LIGHTBOX MODAL -->
+<div class="hidden fixed inset-0 z-50 bg-[#0A0A0C]/95 backdrop-blur-3xl flex items-center justify-center p-4" id="reel-lightbox">
+<div class="relative w-full max-w-5xl aspect-video rounded-2xl overflow-hidden bg-surface-elevated border border-white/10 shadow-2xl flex flex-col">
+<div class="h-12 bg-surface-container-lowest px-4 flex items-center justify-between text-text-muted border-b border-white/5">
+<span class="font-mono text-label-sm text-primary-container font-bold">FUSION FORMA // CREATIVE ENGINE SHOWREEL 2025</span>
+<button class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface hover:text-primary-container transition-colors" onclick="document.getElementById('reel-lightbox').classList.add('hidden');">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<div class="relative flex-1 bg-surface-void flex items-center justify-center">
+<img alt="High energy video reel showcase video thumbnail" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuANFBwm-cGNm9R5OmqpR1OEez50kqa1vMnQXbSzX18BOfZvJWJA2cBR2ojd8f-YsEO-4EzTbfpotKVM1XWn4O3VKBwZxRQvvklr7ZM_CzxvwE5v46xsCb262pTCgxu4j4bzLC35CMfafwquSQvolkKWjjJ-sfEQbN2S4biVKjfqJPK11BeB3jkq6HdvPPIqnTVQ2Q8w4f0Qxocd5qWUygWlxEdqD9KRU_-Ja_p5q3Ht">
+<div class="absolute inset-0 bg-surface-void/40 flex items-center justify-center">
+<div class="w-20 h-20 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center shadow-[0_0_35px_#76ff03]">
+<span class="material-symbols-outlined text-[44px]">play_arrow</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- ==================== FOOTER ==================== -->
+<footer class="w-full bg-[#070709] border-t border-white/5">
+<div class="w-full px-margin lg:px-margin-lg py-space-xl flex flex-col gap-space-xl">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter-lg">
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<div class="flex items-center gap-space-sm">
+<img alt="Fusion Forma Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBh0eQ1JktMRvRp30p3OTtGniCLH6VVAuUDNH8fYZrR__zLTfxPYiabRVnPobOsKGEQu36Ca5Vji_sYcpZfkQRNtVoFATUyQFs1lV276_qgsrKljjLOlQDlTbPmXI2d-hrhA9PL9NzGAZiWsg4GDmK6biqH_VJeLqMWQ6dCAEzf5Vb5fCf4gp3gvO6FrgyNz6dRJi9MATuR4f6knS9JNJVHQ2EZ0j5WPlK7oy33-acRh-e7kEJp66T56S_oe_A-dBh1_ao">
+<span class="font-headline-sm text-headline-sm text-text-primary uppercase tracking-wider">Fusion Forma</span>
+</div>
+<p class="font-body-md text-body-md text-text-muted max-w-md">
+  The on-demand creative engine for hyper-growth brands and elite editors. High-retention video editing, precision photo retouching, graphics, and brand design.
+</p>
+<div class="flex flex-col gap-3 pt-space-xs"><div class="flex flex-wrap items-center gap-2.5"><a aria-label="Instagram" class="w-10 h-10 rounded-xl bg-surface-elevated/90 border border-white/10 flex items-center justify-center text-text-muted hover:text-primary-container hover:border-primary-container/40 hover:shadow-[0_0_15px_rgba(118,255,3,0.3)] hover:scale-105 active:scale-95 transition-all duration-300 group" href="https://instagram.com/your-username" rel="noopener noreferrer" target="_blank"><svg class="w-5 h-5 fill-current transition-colors" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg></a><a aria-label="LinkedIn" class="w-10 h-10 rounded-xl bg-surface-elevated/90 border border-white/10 flex items-center justify-center text-text-muted hover:text-primary-container hover:border-primary-container/40 hover:shadow-[0_0_15px_rgba(118,255,3,0.3)] hover:scale-105 active:scale-95 transition-all duration-300 group" href="https://linkedin.com/in/your-username" rel="noopener noreferrer" target="_blank"><svg class="w-5 h-5 fill-current transition-colors" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg></a><a aria-label="GitHub" class="w-10 h-10 rounded-xl bg-surface-elevated/90 border border-white/10 flex items-center justify-center text-text-muted hover:text-primary-container hover:border-primary-container/40 hover:shadow-[0_0_15px_rgba(118,255,3,0.3)] hover:scale-105 active:scale-95 transition-all duration-300 group" href="https://github.com/your-username" rel="noopener noreferrer" target="_blank"><svg class="w-5 h-5 fill-current transition-colors" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path></svg></a><a aria-label="Email Us Directly" class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-surface-elevated/90 border border-primary-container/30 text-text-primary hover:text-on-primary-container hover:bg-primary-container hover:shadow-[0_0_20px_rgba(118,255,3,0.4)] hover:scale-105 active:scale-95 transition-all duration-300 font-label-md text-label-md group font-semibold" href="mailto:your-official-email@gmail.com"><svg class="w-4 h-4 fill-primary-container group-hover:fill-on-primary-container transition-colors" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path></svg><span class="tracking-wide">Email Us</span></a></div><div class="flex items-center gap-2 text-text-muted font-mono text-[11px]"><span class="w-1.5 h-1.5 rounded-full bg-primary-container animate-pulse"></span><span class="">Direct Desk:</span><a class="text-primary-container hover:underline transition-colors" href="mailto:your-official-email@gmail.com">your-official-email@gmail.com</a></div></div>
+</div>
+<div class="lg:col-span-3 flex flex-col gap-space-sm">
+<h4 class="font-headline-sm text-headline-sm text-text-primary text-[16px] tracking-wide uppercase">Quick Links</h4>
+<div class="flex flex-col gap-space-xs font-body-sm">
+<a class="text-text-muted hover:text-primary-container transition-colors" href="#services">Services (5 Disciplines)</a>
+<a class="text-text-muted hover:text-primary-container transition-colors" href="#pricing">Pricing Architecture</a>
+<a class="text-text-muted hover:text-primary-container transition-colors" href="#work">Curated Work</a>
+<a class="text-primary-container font-semibold hover:underline flex items-center gap-1" href="#jobs"><span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span> Join Our Team (Jobs)</a>
+<a class="text-text-muted hover:text-primary-container transition-colors" href="#client-inquiry">Contact &amp; Book Project</a>
+</div>
+</div>
+<div class="lg:col-span-4 flex flex-col gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<h4 class="font-headline-sm text-headline-sm text-text-primary text-[16px] tracking-wide uppercase">Creative Dispatch</h4>
+<p class="font-body-sm text-body-sm text-text-muted">Receive viral video hook formulas, editing breakdowns, and new editor job drops directly in your inbox.</p>
+</div>
+<form class="flex flex-col sm:flex-row gap-space-xs" onsubmit="return false;">
+<input class="flex-1 px-space-md py-2.5 rounded-lg bg-surface-elevated border border-white/10 text-on-surface font-body-sm text-body-sm placeholder:text-text-muted focus:outline-none focus:border-primary-container transition-all" placeholder="creator@brand.com" type="email">
+<button class="px-space-md py-2.5 rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md uppercase tracking-wider font-bold hover:brightness-110 transition-all" type="button">Subscribe</button>
+</form>
+<span class="font-label-sm text-label-sm text-text-muted flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[14px] text-secondary">verified_user</span>Strict NDA adherence &amp; zero spam policy.
+</span>
+</div>
+</div>
+<div class="pt-space-lg border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-space-md">
+<p class="font-body-sm text-body-sm text-text-muted">© 2025 Fusion Forma Studio Ltd. On-Demand Creative Lab &amp; Editor Platform. All rights reserved.</p>
+<div class="flex items-center gap-space-md">
+<a class="font-body-sm text-body-sm text-text-muted hover:text-on-surface transition-colors" href="#">Privacy Policy</a>
+<a class="font-body-sm text-body-sm text-text-muted hover:text-on-surface transition-colors" href="#">Terms of Service</a>
+<a class="font-body-sm text-body-sm text-text-muted hover:text-on-surface transition-colors" href="#">Editor Code of Conduct</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- Interactive Scripts -->
+<script>
+  // Filter Portfolio Categories
+  function filterPortfolio(category, button) {
+    const buttons = document.querySelectorAll('.portfolio-filter-btn');
+    buttons.forEach(btn => {
+      btn.className = 'portfolio-filter-btn px-space-md py-1.5 rounded-full bg-surface-elevated border border-white/10 text-text-muted hover:text-text-primary hover:bg-surface-container font-label-sm text-label-sm uppercase tracking-wider transition-all';
+    });
+    button.className = 'portfolio-filter-btn px-space-md py-1.5 rounded-full bg-primary-container text-on-primary-container font-label-sm text-label-sm uppercase tracking-wider transition-all font-bold';
+
+    const cards = document.querySelectorAll('.portfolio-card');
+    cards.forEach(card => {
+      const cardCategory = card.getAttribute('data-category');
+      if (category === 'all' || cardCategory === category) {
+        card.style.display = 'flex';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  // Preselect Service in Client Inquiry Form from Pricing cards
+  function preselectService(type) {
+    const select = document.getElementById('client-service');
+    if (!select) return;
+    if (type === 'photo') {
+      select.value = 'photo-5-10';
+    } else if (type === 'reels') {
+      select.value = 'reels-15';
+    } else if (type === 'design') {
+      select.value = 'design-10';
+    }
+  }
+
+  // Handle Client Inquiry Submission
+  function handleClientSubmit(e) {
+    e.preventDefault();
+    const btn = document.getElementById('client-submit-btn');
+    const banner = document.getElementById('client-success-banner');
+    
+    btn.innerHTML = '<span class="material-symbols-outlined animate-spin text-[20px]">progress_activity</span> Locking In Rate...';
+    btn.disabled = true;
+
+    setTimeout(() => {
+      btn.style.display = 'none';
+      banner.classList.remove('hidden');
+    }, 800);
+  }
+
+  // Handle Editor Job Application Submission
+  function handleEditorSubmit(e) {
+    e.preventDefault();
+    const btn = document.getElementById('editor-submit-btn');
+    const banner = document.getElementById('editor-success-banner');
+
+    btn.innerHTML = '<span class="material-symbols-outlined animate-spin text-[20px]">progress_activity</span> Submitting Application...';
+    btn.disabled = true;
+
+    setTimeout(() => {
+      btn.style.display = 'none';
+      banner.classList.remove('hidden');
+    }, 800);
+  }
+</script>
+
+
+</body></html>
